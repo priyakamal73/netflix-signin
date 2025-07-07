@@ -14,6 +14,7 @@ body {
     font-weight: 300;
     display: flex;
     justify-content: center;
+    align-items: center;
     opacity: 1;
     transition: opacity 0.5s ease;
 }
@@ -31,8 +32,8 @@ body.fade-out {
 
 .form-container {
     width: 23%;
-    margin: 10em 0em 10em 0em;
-    padding: 0em 1.5em 5em;
+    /* margin: 10em 0em 10em 0em; */
+    padding: 0em 1.5em 5em; 
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     height: fit-content;
@@ -165,7 +166,7 @@ form .already-a-user a {
 
     body {
         overflow-x: hidden;
-        height: 115vh;
+        height: 100vh;
     }
 
     .form-container {
@@ -179,7 +180,7 @@ form .already-a-user a {
 @media(max-width: 767px) {
 
     body {
-        height: 130vh;
+        height: 100vh;
         overflow-y: hidden;
     }
 
